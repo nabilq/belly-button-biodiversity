@@ -1,5 +1,5 @@
 
-d3.json('./static/js/samples.json').then(function(data) {
+d3.json('samples.json').then(function(data) {
     console.log(data);
   });
 
@@ -169,7 +169,7 @@ var trace2 = {
 //select item for metadata
   var demo2=d3.select(".panel-body")
 
-  d3.json('./static/js/samples.json').then(function(data) {
+  d3.json('samples.json').then(function(data) {
 
     
 
